@@ -5,6 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
+.DS_Store
+.aws-sam/
+
+env/
 
 # Distribution / packaging
 .Python
