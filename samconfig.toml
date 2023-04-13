@@ -17,6 +17,10 @@ lint = true
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = true
 resolve_s3 = true
+stack_name = "flask-aws-lambda-api"
+s3_prefix = "flask-aws-lambda-api"
+region = "eu-west-1"
+image_repositories = []
 
 [default.package.parameters]
 resolve_s3 = true
