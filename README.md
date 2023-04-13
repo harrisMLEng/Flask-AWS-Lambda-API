@@ -28,8 +28,8 @@ For more details on local development and testing, refer to the sections above o
 ## Deployment
 To deploy your serverless Flask application to AWS, follow these steps:
 
-1. Run sam build to build your application.
-2. Run sam deploy -g --stack-name flask-aws-lambda-api to initiate the guided deployment process, which will prompt you for deployment parameters and create or update the CloudFormation stack.
+1. Run ```sam build``` to build your application.
+2. Run ```sam deploy -g --stack-name flask-aws-lambda-api``` to initiate the guided deployment process, which will prompt you for deployment parameters and create or update the CloudFormation stack.
 
 ## Cleanup
 To delete all resources created by the deployment process, run the following command:
